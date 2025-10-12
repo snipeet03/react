@@ -1,0 +1,32 @@
+# Conda & Virtual Environment
+.conda/
+.conda_envs/
+venv/
+env/
+*/venv/
+*/env/
+
+# Anaconda
+anaconda/
+*.conda
+*.anaconda_backup
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# System files
+*.dll
+*.so
+*.dylib
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
