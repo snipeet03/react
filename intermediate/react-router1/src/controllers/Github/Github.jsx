@@ -18,6 +18,10 @@ function Github() {
       <img src={data.avatar_url}alt="Github" width={300}/>
     </div>
   );
-}
 
+}
 export default Github;
+
+
+
+
