@@ -5,13 +5,7 @@ function TodoForm() {
     const[todo , setTodo] = useStata("")
     const {addTodo} = useTodo(); 
 
-    const add = (e) => {
-        e.preventDefault(); 
-
-        if(!todo) return; 
-        addTodo()
-    }
-
+    
     return (
         <form  className="flex">
             <input
