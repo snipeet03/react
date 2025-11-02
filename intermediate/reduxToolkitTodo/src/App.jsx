@@ -3,16 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import AddTodo from './components/AddTodo'
-import Todo from './components/Todo'
+import Todos from './components/Todos'
 
 function App() {
 
 
   return (
     <>
-     <h2>Learn about redux tooKit  </h2>
-     <AddTodo />
-     <Todo/>
+     <h2> Todo List   </h2>
+    <AddTodo />
+    <Todos />
     </>
   )
 }

@@ -1,14 +1,13 @@
-import React, { use } from 'react'
+import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import {removeTodo} from '../features/todo/todoSlice'
-import { __DO_NOT_USE__ActionTypes } from '@reduxjs/toolkit'
 
+function Todos() {
     const todos = useSelector(state => state.todos)
     const dispatch = useDispatch()
 
-function Todo() {
   return (
-        <>
+    <>
     <div>Todos</div>
     <ul className="list-none">
         {todos.map((todo) => (
@@ -40,8 +39,7 @@ function Todo() {
         ))}
       </ul>
     </>
-
   )
 }
 
-export default Todo
+export default Todos
