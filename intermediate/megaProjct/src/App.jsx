@@ -8,7 +8,8 @@ function App() {
 
   return (
     <>
-        
+        <h1>Blog application </h1>
+        <di>This is the blog applicaiton that we had created there so please check this out there </di>
     </>
   )
 }
