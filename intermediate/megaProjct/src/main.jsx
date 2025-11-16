@@ -6,8 +6,6 @@ import { Provider } from 'react-redux'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-        <Provider>
-            <App />
-        </Provider>
+       <App />
   </StrictMode>,
 )
